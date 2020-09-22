@@ -1,0 +1,37 @@
+FLUTTER
+
+Padrão Json de armazenamento de dados
+Permite que armazene dados em formato de arvores, em flutter funciona como armazenamento no formato de "maps", pode se armazenar quaisquer tipos de dados
+
+Ex.: 
+{
+  "nome" : "daniel",
+  "altura" : 1.82,
+  "cursos" : [ //armazena uma lista
+               "Flutter",
+               "Java"
+             ]
+}
+
+Pode se armazenar maps dentro de maps e acessando através das keys
+
+JSON é frequentemente utilizados em APIs
+
+Requisição HTTP NÂO é mais incluida altomaticamente no flutter, precisa se fazer manualmente no pubspec.yaml com a versão mais recente do HTTP achada nesse link:https://pub.dartlang.org/packages/http#-installing-tab-
+
+Para incluir o pacote Http ao seu projeto, adicione o plugin do Http no seu pubspec.yaml da seguinte maneira:
+
+dependencies:   
+  flutter:
+    sdk: flutter
+ 
+  cupertino_icons: ^0.1.2
+  http: ^0.12.0+2 //inserir dando dois espaços para a esquerda
+
+para criar uma classe Home
+"stful" + tab
+
+path_provider: ^1.1.0
+share: ^0.6.1+1
+transparent_image: ^1.0.0
+http: ^0.12.0+2
